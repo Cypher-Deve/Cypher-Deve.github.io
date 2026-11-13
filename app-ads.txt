@@ -168,6 +168,3 @@ start.io, 197760873, RESELLER
 start.io, 131192070, RESELLER
 stroeer.com, 17379, RESELLER
 verve.com, 1008379, RESELLER, 0c8f5958fc2d6270
-
-# Meta Audience Network -- paste the exact lines from your Meta dashboard here
-# (add once you set up Meta)
