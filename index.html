@@ -61,7 +61,7 @@
     Settings → "Ad privacy choices". Everywhere, you can also reset your advertising ID or opt out
     of ad personalization in your device's ad settings (Settings → Google → Ads on Android).</p>
 
-<h2>5. Analytics</h2>
+<h2>5. Analytics and Crash Reports</h2>
 <p>The App uses Google Analytics for Firebase, provided by Google, to understand in a general way how
     the App is used and to improve it. It collects usage events and device information, such as
     when the App is opened, which screens are viewed, and basic actions in the App (for example, that
@@ -76,6 +76,12 @@
 <p>Analytics collection follows your consent choice. Where consent is required, it is only turned on
     if your choice allows it, and it updates if you change your choice under Settings → "Ad privacy
     choices". Analytics events are used for aggregate statistics and are not used to identify you.</p>
+<p>The App also uses Firebase Crashlytics, also provided by Google, to find and fix crashes. If the
+    App crashes, a crash report is sent that includes technical information such as the error and
+    stack trace, device model, operating system version, app version, and the state of the device at
+    the time (for example, available memory and orientation), along with an anonymous installation
+    ID. It does not include your photos, videos, or file contents. Crash reports follow the same
+    consent choice as analytics and are used only to improve the App's stability.</p>
 
 <h2>6. Notifications</h2>
 <p>The App may send local, on-device notifications (e.g. reminders to clean up your gallery). A
@@ -92,7 +98,7 @@
     <li>We do not upload or store your photos, videos, or file contents anywhere</li>
     <li>We do not sell your data. The only data shared with third parties is the ad-serving data
         collected by Google AdMob and its mediation partner (Unity Ads),
-        and the anonymous usage data collected by Google Analytics for Firebase, as described above
+        and the anonymous usage and crash data collected by Google Analytics and Crashlytics for Firebase, as described above
     </li>
 </ul>
 
